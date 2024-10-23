@@ -27,6 +27,7 @@ body{
     margin: 0;
 }
 
+/* wrapper om content te centreren en structuur te geven */
 .wrapper{
     width:1175px;
     margin:0 auto;
@@ -34,6 +35,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
+/*header styling */
+
 header{
     background: #1e9ac9;
     height: 755px;
@@ -52,10 +55,12 @@ p{
     font-size: 16px;
 }
 /*ANIMATION H1*/
+/* bounce-effect voor h1 met keyframe animaties */
 .bounce-top {
     -webkit-animation: bounce-top 0.9s infinite alternate both;
     animation: bounce-top 0.9s infinite alternate both;
 }
+/* keyframe animaties voor het bounce-effect */
 @-webkit-keyframes bounce-top {
     0% {
         -webkit-transform: translateY(-45px);
@@ -161,7 +166,7 @@ p{
     }
 }
 
-/*logo*/
+/* logo styling */
 #logo{
     font-family: sourcesansprolight;
     color: #fff;
@@ -346,7 +351,6 @@ p{
     height: 546px;
     text-align: center;
 }
-
 .fgallery{
     width: 140px;
     height: 182px;
